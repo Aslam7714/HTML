@@ -4,13 +4,54 @@
         <title>Project: Recipe book</title>
         <meta charset="utf-8">
         <style>
+            .header
+             {
+            padding: 5px;
+            text-align: center;
+            background: #1abc9c;
+            color: white;
+            font-size: 30px;
+             }
+            body
+                {
+                background-image:
+                url('https://www.tripsavvy.com/thmb/oRAIGsQ55Bp-5fcvmUeC0sVPrQQ=/1333x1000/smart/filters:no_upscale()/26-5adafa56c6733500373c3cf5.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;   
+                }
+            #tbl1
+            {
+                color: rgb(255,255,255);
+
+            }
+            #tbl2
+            {
+                color: rgb(255,255,255);
+                
+            }
+            #tbl3
+            {
+                color: rgb(255,255,255);
+                
+            }
+            .whole
+            {
+                color: rgb(255,255,255);
+            }
+
         </style>
     </head>
     <body>
+
+        <div class="header">
+        <h1>The Belly Filler</h1>
+        </div>
+        <div class="whole">
        
         <h1>Aslam's Recipe Book</h1>
         
         <h2>Contents:</h2>
+        <div style="background-color:black; color:white; opacity: 80%; padding-right: 30%;">
         
         <ol>
             <li><a href="#morning">breakfast</a></li>
@@ -18,11 +59,12 @@
             <li><a href="#night">Dinner</a></li>
             
         </ol>
+        </div>
         
         <h2 id="morning">Breakfast</h2>
         
         
-        <table>
+        <table id ="tbl1">
             <thead>
                 <tr>
                     <th>Item No</th>
@@ -62,7 +104,7 @@
          <h2 id="afternoon">Lunch</h2>
         
         
-        <table>
+        <table id="tbl2">
             <thead>
                 <tr>
                     <th>Item No</th>
@@ -102,7 +144,7 @@
          <h2 id="night">Dinner</h2>
         
         
-        <table>
+        <table id = "tbl3">
             <thead>
                 <tr>
                     <th>Item No</th>
@@ -143,6 +185,6 @@
 
         
     <p><em> Standard:<a href="https://www.itcportal.com/">what's our standard</a></em></p>
-    
+    </div>
     </body>
 </html>
