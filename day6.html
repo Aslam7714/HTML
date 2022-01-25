@@ -5,10 +5,10 @@
         <meta charset="utf-8">
         <style>
             .header
-             {
+            {
             padding: 5px;
             text-align: center;
-            background: #1abc9c;
+            background: #0000ff; opacity: 70%;
             color: white;
             font-size: 30px;
              }
@@ -38,6 +38,39 @@
             {
                 color: rgb(255,255,255);
             }
+            a:link 
+            {
+            color: white;
+            background-color: transparent;
+            text-decoration: underline;
+            }
+            a:visited 
+            {
+            color: white;
+            background-color: transparent;
+            text-decoration: underline;
+            }
+            a:hover 
+            {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+            }
+            a:active 
+            {
+            color: green;
+            background-color: transparent;
+            text-decoration: underline;
+            }
+            .content
+            {
+                font-size: 30px;
+                opacity: 0.7;
+            }
+            .content:hover
+            {
+                opacity: 1.0;
+            }
 
         </style>
     </head>
@@ -50,8 +83,9 @@
        
         <h1>Aslam's Recipe Book</h1>
         
-        <h2>Contents:</h2>
-        <div style="background-color:black; color:white; opacity: 80%; padding-right: 30%;">
+        <h2 style="font-size: 40px; background-color: blue; width: 25%;">Contents:</h2>
+       <div class="content">
+
         
         <ol>
             <li><a href="#morning">breakfast</a></li>
@@ -59,9 +93,9 @@
             <li><a href="#night">Dinner</a></li>
             
         </ol>
-        </div>
-        
-        <h2 id="morning">Breakfast</h2>
+    </div>
+                
+        <h2 id="morning" style="background-color: hsl(0, 100%, 50%); width: 20%;">Breakfast</h2>
         
         
         <table id ="tbl1">
@@ -101,7 +135,7 @@
             </tbody>
         </table>
         
-         <h2 id="afternoon">Lunch</h2>
+         <h2 id="afternoon" style="background-color: hsl(0, 100%, 50%); width: 20%;">Lunch</h2>
         
         
         <table id="tbl2">
@@ -141,7 +175,7 @@
             </tbody>
         </table>
         
-         <h2 id="night">Dinner</h2>
+         <h2 id="night" style="background-color: hsl(0, 100%, 50%); width: 20%;">Dinner</h2>
         
         
         <table id = "tbl3">
@@ -184,7 +218,7 @@
       
 
         
-    <p><em> Standard:<a href="https://www.itcportal.com/">what's our standard</a></em></p>
+    <p><em> Standard:<a href="https://www.itcportal.com/">what's our standard(click here to know our standards)</a></em></p>
     </div>
     </body>
 </html>
